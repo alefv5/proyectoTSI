@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZiCgtAeoXvQMLaz/rX9/KABTbk0BxNwapeBhEIPBIkaCy4aYGaPDOJBUzJ8XOZFcSUA0H4hyDZcjIcoV6+kBYQ==",
+  "dgSpecHash": "z/MVUG5iM1qximGVNh/BFIS/ODr2jwEF+jAitljOr9njcrqyB4ouiUGyPTgZ2I+NhGYRr9GrIWh6p9u1NllMpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj",
+  "projectFilePath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\59177\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\59177\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -26,7 +26,7 @@
     "C:\\Users\\59177\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\59177\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\59177\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
-    "C:\\Users\\59177\\.nuget\\packages\\mysqlconnector\\0.69.10\\mysqlconnector.0.69.10.nupkg.sha512",
+    "C:\\Users\\59177\\.nuget\\packages\\mysqlconnector\\0.69.9\\mysqlconnector.0.69.9.nupkg.sha512",
     "C:\\Users\\59177\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\59177\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.2.4\\pomelo.entityframeworkcore.mysql.3.2.4.nupkg.sha512",
     "C:\\Users\\59177\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",

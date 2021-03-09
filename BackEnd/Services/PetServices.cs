@@ -55,9 +55,8 @@ namespace Albergue.Services
 
         public PetModel UpdatePet(int PetId, PetModel petModel)
         {
-
+            petModel.Id = PetId;
             var petToUpdate = _refugeRepository.UpdatePet(_mapper.Map<PetEntity>(petModel));
-
             return _mapper.Map<PetModel>(petToUpdate);
         }
     }

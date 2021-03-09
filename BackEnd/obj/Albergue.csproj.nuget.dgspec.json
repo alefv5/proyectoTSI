@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj": {}
+    "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj": {
+    "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj",
+        "projectUniqueName": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
         "projectName": "Albergue",
-        "projectPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj",
+        "projectPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
         "packagesPath": "C:\\Users\\59177\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\obj\\",
+        "outputPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\59177\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,10 +53,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[0.69.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

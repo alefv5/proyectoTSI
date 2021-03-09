@@ -265,7 +265,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "MySqlConnector/0.69.10": {
+      "MySqlConnector/0.69.9": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/MySqlConnector.dll": {}
@@ -771,10 +771,10 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
-    "MySqlConnector/0.69.10": {
-      "sha512": "flikhWc6q1gZE4l1PujXLnoZxthf/DqKo43y8x5Cw7/iaivjVYAHHhlr3/t6i8GImi/dbxP4zntp5J/4EVFcbw==",
+    "MySqlConnector/0.69.9": {
+      "sha512": "WpY4jWc5ee5kgKy3XAK9JMjRmn7+jLYCgDlYvFK+GTrzaiWDWoYLbtJge6l1tqo2teUAP3kzzsJpP8QwJM1W4Q==",
       "type": "package",
-      "path": "mysqlconnector/0.69.10",
+      "path": "mysqlconnector/0.69.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -795,7 +795,7 @@
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.0.69.10.nupkg.sha512",
+        "mysqlconnector.0.69.9.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -1055,7 +1055,6 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "Microsoft.EntityFrameworkCore >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
-      "MySqlConnector >= 0.69.10",
       "Pomelo.EntityFrameworkCore.MySql >= 3.2.4"
     ]
   },
@@ -1065,11 +1064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj",
+      "projectUniqueName": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
       "projectName": "Albergue",
-      "projectPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\Albergue.csproj",
+      "projectPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
       "packagesPath": "C:\\Users\\59177\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\obj\\",
+      "outputPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\59177\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1111,10 +1110,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.8, )"
-          },
-          "MySqlConnector": {
-            "target": "Package",
-            "version": "[0.69.10, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",

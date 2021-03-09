@@ -27,7 +27,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Microsoft.EntityFrameworkCore": "3.1.8",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.8",
-          "MySqlConnector": "0.69.10",
           "Pomelo.EntityFrameworkCore.MySql": "3.2.4",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -578,11 +577,11 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "MySqlConnector/0.69.10": {
+      "MySqlConnector/0.69.9": {
         "runtime": {
           "lib/netcoreapp3.0/MySqlConnector.dll": {
-            "assemblyVersion": "0.69.10.0",
-            "fileVersion": "0.69.10.0"
+            "assemblyVersion": "0.69.9.0",
+            "fileVersion": "0.69.9.0"
           }
         },
         "compile": {
@@ -603,7 +602,7 @@
       "Pomelo.EntityFrameworkCore.MySql/3.2.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
-          "MySqlConnector": "0.69.10",
+          "MySqlConnector": "0.69.9",
           "Pomelo.JsonObject": "2.2.1"
         },
         "runtime": {
@@ -2435,12 +2434,12 @@
       "path": "microsoft.extensions.primitives/3.1.8",
       "hashPath": "microsoft.extensions.primitives.3.1.8.nupkg.sha512"
     },
-    "MySqlConnector/0.69.10": {
+    "MySqlConnector/0.69.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-flikhWc6q1gZE4l1PujXLnoZxthf/DqKo43y8x5Cw7/iaivjVYAHHhlr3/t6i8GImi/dbxP4zntp5J/4EVFcbw==",
-      "path": "mysqlconnector/0.69.10",
-      "hashPath": "mysqlconnector.0.69.10.nupkg.sha512"
+      "sha512": "sha512-WpY4jWc5ee5kgKy3XAK9JMjRmn7+jLYCgDlYvFK+GTrzaiWDWoYLbtJge6l1tqo2teUAP3kzzsJpP8QwJM1W4Q==",
+      "path": "mysqlconnector/0.69.9",
+      "hashPath": "mysqlconnector.0.69.9.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
