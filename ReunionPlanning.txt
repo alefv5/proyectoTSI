@@ -1,0 +1,42 @@
+- Descargar si o si formulario
+- Tarjetas de los perritos (especificar vacunas y esterilizacion con fechas)
+- (Sistema aparte) Registro de datos(padrinos, donaciones)
+- (Solo admin)Apartado adoptados(guardar datos de adoptante)
+
+- Tarjeta de PetShop  (notificacion)
+- Comestibles para perritos
+
+
+GUINDO(DOMINANTE) Y PLOMO *****
+
+
+terminar story mapping
+terminar trello
+Repartir Tareas(PROTOTIPO INCLUYE EN CADA TAREA)
+
+
+Probar que este funcionando el codigo
+//historias de usuario(no para mañana)
+//informe(no para mañana)
+
+
+
+PAGINA PRINCIPAL  (1 persona) 1 Jhonnysin
+- Prototipo
+- REDIRECCIONES (frontend)
+
+Ingresar al menu principal de mascotas(2 personas) 2 3 Alesita Merci
+- Prototipo
+- Lista Mascotas
+- Admin funcion
+
+Ingresar pagina individual mascota (2 personas) 4 5 Dani Jussy
+- Prototipo
+- Mascota
+- Funciones Aparte(editar info, marcar como adoptado)
+
+Ingresar a la pagina de voluntarios (1 persona) 6 Andrew
+- Prototipo
+- Objetivos(sacar informacion) frontend
+- navbarHeader footer
+

@@ -1059,19 +1059,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\59177\\.nuget\\packages\\": {}
+    "C:\\Users\\Dani Camacho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
+      "projectUniqueName": "C:\\Users\\Dani Camacho\\Desktop\\7 Semestre\\tsi\\TsiAlbergues\\BackEnd\\Albergue.csproj",
       "projectName": "Albergue",
-      "projectPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\Albergue.csproj",
-      "packagesPath": "C:\\Users\\59177\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\59177\\Desktop\\7 Semestre\\Taller Sis Info\\Proyecto\\Albergue\\Albergue\\BackEndJus\\obj\\",
+      "projectPath": "C:\\Users\\Dani Camacho\\Desktop\\7 Semestre\\tsi\\TsiAlbergues\\BackEnd\\Albergue.csproj",
+      "packagesPath": "C:\\Users\\Dani Camacho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dani Camacho\\Desktop\\7 Semestre\\tsi\\TsiAlbergues\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\59177\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dani Camacho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1134,7 +1134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
