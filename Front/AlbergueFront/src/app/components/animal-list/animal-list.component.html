@@ -1,1 +1,4 @@
-<p>nombre: {{ dog.name }}, sexo: {{dog.sex}}, descrpicion: {{dog.description}} </p>
+<div *ngFor="let dog of dogs" [dog]="dog">
+    <p>nombre: {{ dog.name }}, sexo: {{dog.sex}}, descrpicion: {{dog.description}} </p>
+</div>
+
