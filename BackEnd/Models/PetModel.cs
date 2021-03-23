@@ -14,5 +14,8 @@ namespace Albergue.Models
         public char? Sex { get; set; }
         [StringLength(55, MinimumLength = 3)]
         public string Description { get; set; }
+       // public byte Photo { get; set; }
+        public string Vaccines { get; set; }
+        public string Sterilization { get; set; }
     }
 }

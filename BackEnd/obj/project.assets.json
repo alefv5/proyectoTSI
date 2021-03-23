@@ -1059,19 +1059,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dani Camacho\\.nuget\\packages\\": {}
+    "C:\\Users\\Alejandra\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dani Camacho\\Desktop\\7 Semestre\\tsi\\TsiAlbergues\\BackEnd\\Albergue.csproj",
+      "projectUniqueName": "C:\\Users\\Alejandra\\OneDrive\\Escritorio\\TSI\\TsiAlbergues\\BackEnd\\Albergue.csproj",
       "projectName": "Albergue",
-      "projectPath": "C:\\Users\\Dani Camacho\\Desktop\\7 Semestre\\tsi\\TsiAlbergues\\BackEnd\\Albergue.csproj",
-      "packagesPath": "C:\\Users\\Dani Camacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dani Camacho\\Desktop\\7 Semestre\\tsi\\TsiAlbergues\\BackEnd\\obj\\",
+      "projectPath": "C:\\Users\\Alejandra\\OneDrive\\Escritorio\\TSI\\TsiAlbergues\\BackEnd\\Albergue.csproj",
+      "packagesPath": "C:\\Users\\Alejandra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alejandra\\OneDrive\\Escritorio\\TSI\\TsiAlbergues\\BackEnd\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dani Camacho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alejandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1134,7 +1138,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,21 @@
-<div *ngFor="let dog of dogs" [dog]="dog">
-    <p>nombre: {{ dog.name }}, sexo: {{dog.sex}}, descrpicion: {{dog.description}} </p>
+<div class="row">
+    <div *ngFor="let dog of dogs" class="col-4">
+        <div id="content" class="contenedor">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="../../../assets/perro.jpg">
+                        <p class="caption">{{ dog.name }}</p>
+                    </div>
+                    <div class="back">
+                        <h1>{{ dog.name }}</h1>
+                        <br>
+                        <br>
+                        <p class="fontback">Sexo: {{dog.sex}}</p>
+                        <p class="fontback">Descripcion: {{dog.description}}</p>
+                        <p class="fontback">Vacunas: {{dog.vaccines}}</p>
+                        <p class="fontback">Esterilizacion: {{dog.sterilizacion}}</p>
+                    </div>
+                </div>
+        </div>
+    </div>
 </div>
-

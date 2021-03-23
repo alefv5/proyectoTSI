@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { AnimalListComponent } from './components/animal-list/animal-list.component';
 import {HttpClientModule} from '@angular/common/http';
 import {DogService} from './Services/dog-service.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {DogService} from './Services/dog-service.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NgbModule
   ],
   providers: [DogService],
   bootstrap: [AppComponent]

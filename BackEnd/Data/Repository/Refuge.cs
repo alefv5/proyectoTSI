@@ -38,6 +38,9 @@ namespace Albergue.Data.Repository
                     pet.Name = _reader.GetString(1);
                     pet.Sex = _reader.GetChar(2);
                     pet.Description = _reader.GetString(3);
+                   // pet.Photo = _reader.GetByte(4);
+                    pet.Vaccines = _reader.GetString(4);
+                    pet.Sterilization = _reader.GetString(5);
                     pets.Add(pet);
                 }
                 databaseConnection.Close();
@@ -63,6 +66,10 @@ namespace Albergue.Data.Repository
                     pet.Name = _reader.GetString(1);
                     pet.Sex = _reader.GetChar(2);
                     pet.Description = _reader.GetString(3);
+                   // pet.Photo = _reader.GetByte(4);
+                    pet.Vaccines = _reader.GetString(4);
+                    pet.Sterilization = _reader.GetString(5);
+                    pets.Add(pet);
                 }
                 databaseConnection.Close();
             }
@@ -73,7 +80,7 @@ namespace Albergue.Data.Repository
             int retorno = 0;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
-            MySqlCommand commandDatabase = new MySqlCommand($"Insert into  pets(Name, Sex, Description) values( '{petEntity.Name}','{petEntity.Sex}', '{petEntity.Description}' )", databaseConnection);
+            MySqlCommand commandDatabase = new MySqlCommand($"Insert into  pets(Name, Sex, Description,Vaccines,Sterilization) values( '{petEntity.Name}','{petEntity.Sex}', '{petEntity.Description}','{petEntity.Vaccines}','{petEntity.Sterilization}' )", databaseConnection);
             retorno = commandDatabase.ExecuteNonQuery();
             databaseConnection.Close();
             return petEntity;
@@ -101,7 +108,7 @@ namespace Albergue.Data.Repository
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             databaseConnection.Open();
 
-            MySqlCommand comando = new MySqlCommand($"Update pets set Name = '{petEntity.Name}', Sex='{ petEntity.Sex }', Description = '{petEntity.Description}' where Id = { petEntity.Id }", databaseConnection);
+            MySqlCommand comando = new MySqlCommand($"Update pets set Name = '{petEntity.Name}', Sex='{ petEntity.Sex }', Description = '{petEntity.Description}',Vaccines='{petEntity.Vaccines}',Sterilization='{petEntity.Sterilization}' where Id = { petEntity.Id }", databaseConnection);
 
             retorno = comando.ExecuteNonQuery();
 
